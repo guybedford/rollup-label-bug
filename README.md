@@ -1,10 +1,9 @@
-1. `npm install`
-2. `npm run build`
-3. `node npm minify`
+1. `npm run build`
+2. `node npm minify`
 
 Error: Unsyntactic break / missing label.
 
-Reason: loop: label has been removed from line 153
+Reason: loop: label has been removed
 
 **Only applies for --no-treeshake!**
 

@@ -1,11 +1,10 @@
 {
   "scripts": {
-    "build": "rollup --no-treeshake ./node_modules/scss-tokenizer/lib/entry.js -f cjs > build.js",
+    "build": "rollup --no-treeshake ./tokenize-string.js -f cjs > build.js",
     "minify": "terser build.js"
   },
   "dependencies": {
     "rollup": "^2.3.1",
-    "scss-tokenizer": "^0.1.2",
     "terser": "^4.6.9"
   }
 }
